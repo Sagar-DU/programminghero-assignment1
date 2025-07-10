@@ -123,11 +123,37 @@ header {
     margin: 23px 0;
 }
 
-.action-text {
+p {
     color: rgba(37, 36, 50, 0.5);
     margin-bottom: 23px
 }
 
 .action-img {
     border-radius: 48px;
+}
+
+/* Productive User Styles */
+.productive-user-container {
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.productive-users {
+    padding: 50px 0;
+}
+
+.productive-user-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-title {
+    font-size: 80px;
 }
