@@ -161,6 +161,52 @@ p {
     font-size: 80px;
 }
 
+/* Review Styles */
+.review-container {
+    text-align: center;
+    margin: 137px 0;
+}
+
+.reviewes {
+    display: flex;
+    gap: 20px;
+}
+
+.review-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: start;
+    padding: 24px;
+}
+
+.review-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    border-radius: 100%;
+}
+
+.date p {
+    padding: 0;
+    margin: 0;
+}
+
 /* Contact Styles */
 
 .contact-container {
