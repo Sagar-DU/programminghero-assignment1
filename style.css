@@ -207,6 +207,24 @@ p {
     margin: 0;
 }
 
+/* Focus Stlyes */
+.focus-container {
+    text-align: center;
+    background-color: white;
+    padding: 71px 150px;
+    margin-bottom: 90px;
+}
+
+.focus-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus-img img {
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
 /* Contact Styles */
 
 .contact-container {
