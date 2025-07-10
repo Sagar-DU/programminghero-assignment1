@@ -4,8 +4,6 @@
 }
 
 body {
-    width: 85%;
-    margin: 0 auto;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -50,6 +48,11 @@ body {
 }
 
 /* Nav Bar Styles */
+nav {
+    width: 85%;
+    margin: 0 auto;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -82,4 +85,21 @@ nav ul li a {
     color: black;
     background-color: bisque;
     transform: scale(1.2);
+}
+
+/* Banner Styles */
+header {
+    background-image: url("assets/Hero-bg.png");
+    width: 100%;
+}
+.banner {
+    text-align: center;
+    margin-top: 158px;
+    padding-bottom: 152px;
+}
+
+.title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
 }
