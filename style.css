@@ -10,6 +10,11 @@ body {
     font-style: normal;
 }
 
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* Common Styles */
 
 /* Main Font */
@@ -102,4 +107,27 @@ header {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 37px;
+}
+
+/* Action Styles */
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 0;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 23px 0;
+}
+
+.action-text {
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px
+}
+
+.action-img {
+    border-radius: 48px;
 }
