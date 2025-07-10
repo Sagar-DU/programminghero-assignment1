@@ -57,20 +57,21 @@ main {
 nav {
     width: 85%;
     margin: 0 auto;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
     padding: 50px 0;
 }
 
-nav ul li {
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
     list-style-type: none;
 }
 
-nav ul li a {
+ul li a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -199,4 +200,15 @@ textarea {
 
 .form-container .btn {
     width: 497px;
+}
+
+/* Footer Styles */
+.footer-container {
+    text-align: center;
+    background-color: white;
+    padding: 104px 455px;
+}
+
+.footer-title {
+    font-size: 100px;
 }
