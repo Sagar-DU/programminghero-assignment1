@@ -8,6 +8,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: rgb(245, 248, 255);
 }
 
 main {
@@ -78,7 +79,7 @@ nav ul li a {
 
 .btn {
     color: white;
-    background-color:rgb(78, 71, 255);
+    background-color: rgb(78, 71, 255);
     padding: 12px 36px;
     border: 0;
     border-radius: 10px;
@@ -97,6 +98,7 @@ header {
     background-image: url("assets/Hero-bg.png");
     width: 100%;
 }
+
 .banner {
     text-align: center;
     margin-top: 158px;
@@ -156,4 +158,45 @@ p {
 
 .data-title {
     font-size: 80px;
+}
+
+/* Contact Styles */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0;
+}
+
+.contact-title {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.form-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input ,textarea {
+    width: 497px;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 20px 32px;
+    margin: 10px 0 20px 0;
+}
+input {
+    height: 70px;
+}
+
+textarea {
+    resize: none;
+    height: 135px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container .btn {
+    width: 497px;
 }
