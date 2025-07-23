@@ -1,12 +1,14 @@
+/* Common Styles */
 *{
     margin: 0;
     padding: 0;
 }
-
-header {
+header, main {
     width: 90%;
     margin: 30px auto;
 }
+
+/* Header Styles */
 
 nav ul {
     display: flex;
@@ -44,6 +46,12 @@ li a:focus {
     color: black;
 }
 
+/* Main Styles */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
