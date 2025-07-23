@@ -19,6 +19,11 @@ nav ul {
     gap: 50px;
 }
 
+.item {
+    display: flex;
+    gap: 50px;
+}
+
 li {
     list-style: none;
     color: gray;
@@ -37,4 +42,15 @@ li a:hover,
 li a:active,
 li a:focus {
     color: black;
+}
+
+
+
+
+
+/* Media Qurey */
+@media  screen and (max-width: 768px) {
+    .item {
+        display: none;
+    }
 }
