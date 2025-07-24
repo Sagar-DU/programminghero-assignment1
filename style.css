@@ -186,6 +186,10 @@ li a:focus {
 }
 
 /* Deal Section Styles */
+.latest-deals-container {
+    margin-bottom: 120px;
+}
+
 .deal-texts {
     text-align: center;
     margin-top: 140px;
@@ -259,6 +263,51 @@ h4 {
     text-decoration: underline;
 }
 
+/* Subscription Styles */
+.subscription-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.subscription-title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-field {
+    display: flex;
+    background: white;
+    overflow: hidden;
+    width: 50%;
+}
+
+#email {
+    flex: 1;
+    padding: 8px 20px;
+    border: none;
+}
+
+.subscribe-btn {
+    background: rgb(233, 90, 8);
+    color: white;
+    border: none;
+    padding: 26px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /* Media Qurey */
 @media  screen and (max-width: 768px) {
     /* Navigation bar  */
@@ -312,5 +361,25 @@ h4 {
     .left, .right {
         width: 100%;
         display: none;
+    }
+
+    /* Subscription  */
+    .subscription-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field {
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    #email {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .subscribe-btn {
+        border-radius: 0 0 8px 8px;
+        padding: 1rem;
     }
 }
