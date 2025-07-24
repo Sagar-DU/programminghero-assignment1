@@ -185,6 +185,80 @@ li a:focus {
     padding: 20px 0;
 }
 
+/* Deal Section Styles */
+.deal-texts {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.deal-title {
+    font-size: 50px;
+}
+
+.deal-text {
+    padding: 0 250px;
+    margin: 0 250px;
+}
+
+.deal-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.left {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-img-bloom {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 120px;
+    border-radius: 10px;
+    background-position: center;
+    color: white;
+}
+
+.offer-img-ana {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 130px;
+    border-radius: 10px;
+    background-position: center;
+    color: white;
+    
+}
+
+.right {
+    width: 60%;
+    text-align: center;
+}
+
+.offer-img-zabo {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 110px;
+    border-radius: 10px;
+    background-position: center;
+    color: white;
+
+}
+
+
+h4 {
+    text-decoration: underline;
+}
+
 /* Media Qurey */
 @media  screen and (max-width: 768px) {
     /* Navigation bar  */
@@ -228,5 +302,15 @@ li a:focus {
     .plant-lover-title {
         font-size: 24px;
         margin-top: 20px;
+    }
+
+    /* Latest Deals */
+    .deal-text{
+        padding: 0;
+        margin: 0;
+    }
+    .left, .right {
+        width: 100%;
+        display: none;
     }
 }
