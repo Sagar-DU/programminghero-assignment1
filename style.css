@@ -308,6 +308,34 @@ h4 {
     cursor: pointer;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 50px auto;
+    width: 85%;
+}
+
+.logo-container, .links, .social {
+    width: 33%;
+}
+
+.links ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 /* Media Qurey */
 @media  screen and (max-width: 768px) {
     /* Navigation bar  */
