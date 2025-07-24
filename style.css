@@ -90,8 +90,19 @@ li a:focus {
 
 
 /* Media Qurey */
+/* Navigation bar  */
 @media  screen and (max-width: 768px) {
     .item {
         display: none;
+    }
+    /* Hero Section  */
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-text {
+        width: 100%;
     }
 }
