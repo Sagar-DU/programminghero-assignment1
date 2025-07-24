@@ -410,4 +410,18 @@ h4 {
         border-radius: 0 0 8px 8px;
         padding: 1rem;
     }
+
+    /* Footer Links  */
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+
+    }
+
+    .links ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
