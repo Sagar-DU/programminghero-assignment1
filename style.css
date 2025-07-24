@@ -51,7 +51,7 @@ nav ul {
     gap: 50px;
 }
 
-li {
+nav ul li {
     list-style: none;
     color: gray;
 }
@@ -133,6 +133,57 @@ li a:focus {
     font-weight: 600;
 }
 
+.plant-lover-container {
+    display: flex;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.plant-lover-img-container {
+    position: relative;
+    background-image: url("assets/flower-store.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width: 50%;
+    height: 600px;
+}
+
+.trusted-logo {
+    position: absolute;
+    top: -150px;
+    right: 0;
+
+}
+
+.trusted-logo img {
+    width: 286px;
+    animation: rotate-animation 10s infinite linear;
+}
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.plant-lover-text {
+    width: 50%;
+}
+
+.plant-lover-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.plant-lover-text ul li {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
 
 /* Media Qurey */
 @media  screen and (max-width: 768px) {
@@ -159,5 +210,23 @@ li a:focus {
     .plant-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Plant Lover Section */
+    .plant-lover-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .plant-lover-img-container, .plant-lover-text {
+        width: 100%;
+    }
+
+    .trusted-logo img {
+        display: none;
+    }
+
+    .plant-lover-title {
+        font-size: 24px;
+        margin-top: 20px;
     }
 }
