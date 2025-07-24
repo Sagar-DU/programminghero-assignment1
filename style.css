@@ -71,7 +71,7 @@ li a:focus {
     color: black;
 }
 
-/* Main Styles */
+/* Banner Styles */
 .hero-container {
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,14 @@ li a:focus {
     font-size: 65px;
 }
 
-
+/* Plant Styles */
+.plant-container {
+    text-align: center;
+    margin-top: 120px;
+}
+.plant-text h1 {
+    font-size: 50px;
+}
 
 
 /* Media Qurey */
