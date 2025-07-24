@@ -147,7 +147,17 @@ li a:focus {
         align-items: center;
         justify-content: center;
     }
+    .hero-figure {
+        max-width: auto;
+        scale: 0.7;
+    }
     .hero-text {
         width: 100%;
+    }
+
+    /* Plant Section */
+    .plant-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
