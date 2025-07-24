@@ -4,9 +4,34 @@
     padding: 0;
 }
 header, main {
-    width: 90%;
+    width: 85%;
     margin: 30px auto;
 }
+
+.noto-serif-bold {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .color-text {
+    color: rgb(233, 90, 8);
+  }
+
+  p {
+    color: rgba(0, 0, 0, 0.5);
+  }
 
 /* Header Styles */
 
@@ -51,6 +76,14 @@ li a:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 65px;
 }
 
 
